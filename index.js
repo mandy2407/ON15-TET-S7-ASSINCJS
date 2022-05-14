@@ -11,20 +11,3 @@
     3. A partir da id da usuária obter o histórico de pedidos;
 */
 
-const pegarUsuaria = () => {
-  setTimeout(() => {
-    return {
-      nome:"Amanda"
-      email: "amandcamila@gmail.com"
-      id: 34244224
-
-    }
-  }, 1000)
-}
-
-const pegarEndereco = () => {}
-
-const pegarPedidos = () => {}
-
-const usuaria = pegarUsuaria()
-console.log('usuária:' + usuaria)
